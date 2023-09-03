@@ -9,3 +9,4 @@ Explore a curated collection of tools, guides, and tips for successful bug bount
 - [Miscellaneous Resources](/content/resources.md)
 - [List of Vulnerabilities Names](/content/vulnerability.md)
 - [Automated Scripts that used in daily to daily task](/content/scripts.md)
+- [Bug Bounty Tips](/content/bounty-tips/bounty-tips.md)
