@@ -1,5 +1,8 @@
 Here is a list of useful browser extensions that you can use in bug bounty hunting to enhance your web security.
 
+# Web Version: 
+https://securitycipher.com/docs/browser-extensions
+
 ## Wappalyzer
 
 Wappalyzer is a technology profiler that offers a comprehensive view of websites. This extension reveals crucial information such as the content management system (CMS) used, frameworks, e-commerce platforms, JavaScript libraries, and more. Wappalyzer is not limited to CMS or framework detection; it identifies over a thousand technologies across various categories, making it an invaluable tool for web developers and tech enthusiasts.
