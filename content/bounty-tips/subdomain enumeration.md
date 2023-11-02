@@ -10,7 +10,7 @@ https://securitycipher.com/docs/subdomain-enumeration-tools/
 |Sublist3r|	Fast subdomains enumeration tool for penetration testers	|https://github.com/aboul3la/Sublist3r	|python3 sublist3r.py -d domain.com|
 |chaos|	Go client to communicate with Chaos DB API.	|https://github.com/projectdiscovery/chaos-client	|chaos -d domain.com -silent|
 |assetfinder|	Find domains and subdomains related to a given domain	|https://github.com/tomnomnom/assetfinder	|assetfinder –subs-only domain.com|
-|gau|	Fetch known URLs from AlienVault’s Open Threat Exchange, the Wayback Machine, and Common Crawl.|	https://github.com/lc/gau	gau –subs domain.com | unfurl -u domains|
+|gau|	Fetch known URLs from AlienVault’s Open Threat Exchange, the Wayback Machine, and Common Crawl. |	https://github.com/lc/gau	| gau –subs domain.com (pipe) unfurl -u domains|
 |github-subdomains|	Find subdomains on GitHub.	|https://github.com/gwen001/github-subdomains	|github-subdomains -d domain.com| 
 |findomain|	The fastest and complete solution for domain recognition. Supports screenshoting, port scan, HTTP check, data import from other tools, subdomain monitoring, alerts via Discord, Slack and Telegram, multiple API Keys for sources and much more.	|https://github.com/Findomain/Findomain	|findomain -t domain.com --external-subdomains|
 |OneForAll|	OneForAll is a powerful subdomain integration tool	|https://github.com/shmilylty/OneForAll	|python3 oneforall.py --target domain.com run|
