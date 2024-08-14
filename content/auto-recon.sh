@@ -157,9 +157,9 @@ echo "[+] Scanning for SSRF vulnerabilities..."
 cat $output_dir/content/wayback_urls.txt | grep "=" | qsreplace "http://169.254.169.254/latest/meta-data/" | httpx -silent -status-code -json -o $output_dir/vulnerabilities/potential_ssrf.json
 
 # GraphQL introspection
-echo "[+] Checking for GraphQL endpoints and introspection..."
+echo "[+] Checking for GraphQL Vulnerabilities..."
 for subdomain in $(cat $output_dir/content/live_subdomains.txt); do
-    graphql-introspection -t "https://$subdomain/graphql" -o $output_dir/vulnerabilities/graphql_${subdomain}.json
+    graphql-cop -t "https://$subdomain/graphql" -o $output_dir/vulnerabilities/graphql_${subdomain}.json
 done
 
 # JWT token vulnerabilities
