@@ -75,6 +75,7 @@ Presenting an exhaustive compilation of security tools designed for Bug Bounty h
 | Dependency-Check | OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies. | https://github.com/jeremylong/DependencyCheck |
 | osv-scanner | Use OSV-Scanner to find existing vulnerabilities affecting your project's dependencies. | https://github.com/google/osv-scanner |
 | Syny | Find and automatically fix vulnerabilities in your code, open source dependencies, containers, and IaC | https://github.com/snyk/cli |
+| [Vulert](vulert.com) | Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more.|
 
 # Other
 | Name 	| Description 	    | URL   |
